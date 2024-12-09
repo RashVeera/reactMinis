@@ -1,0 +1,43 @@
+.success{
+  background-color: green;
+}
+
+.error{
+  background-color: red;
+}
+
+.warning{
+  background-color: yellow;
+}
+
+.info{
+  background-color: gray;
+}
+
+.message{
+  display: flex;
+  align-items: center;
+  padding: 1rem 0.5rem;
+  box-shadow: inset;
+  gap:1rem;
+  margin: 1rem;
+}
+
+.top-right{
+  position: absolute;
+  top:0;
+  right: 0;
+}
+
+.buttons{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 40rem;
+  gap: 1rem;
+  margin-left: 25rem;
+  margin-top: 5rem;
+}
+
+.App>button{
+  margin: 1rem;
+}
