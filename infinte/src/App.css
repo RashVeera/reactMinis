@@ -1,0 +1,40 @@
+body{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.container{
+   color:white;
+   display: flex;
+   flex-wrap: wrap;
+   gap:2rem;
+   margin-left: 7rem;
+   margin-top: 3rem;
+}
+
+.loading{
+  justify-self: center;
+  align-self: center;
+  margin-left:30%;
+}
+
+.single__container{
+  border: gray 1px solid;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.single__container>img{
+  width:13rem;
+  padding: 1rem;
+
+}
