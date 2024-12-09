@@ -1,0 +1,43 @@
+.maincomment{
+    margin:2% 5% ;
+    border-left:2px solid blue;
+}
+
+.submitBtn{
+    margin-left: 2%;
+
+}
+
+.submitBtn:hover{
+    cursor: pointer;
+}
+
+.replyContainers{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    
+}
+
+textarea{
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.replyContainers>button{
+    align-self: flex-end;
+}
+
+.maincomments{
+    display:flex;
+    gap:1rem;
+    align-items: center;
+}
+
+.maincomments>button{
+    align-self: flex-end;
+}
+
+.maincomments>button:hover{
+    cursor: pointer;
+}
