@@ -1,0 +1,21 @@
+.select-dropdown{
+  width: 30%;
+}
+
+.select{
+  display: flex;
+  gap:1rem;
+}
+
+button{
+  padding: 0.5rem;
+}
+
+span{
+  margin-top: 2%;
+  display: block;
+}
+
+.App{
+  margin-left: 30%;
+}
